@@ -1,0 +1,6 @@
+sudo pip3 install flask
+sudo pip3 install pyzbar
+一定要使用X3派提供的镜像，否则GPIO口没法驱动，会导致wifi无法和APP进行连接。
+
+环境配置好后，执行以下命令
+sudo python3 rosmaster_main.py
